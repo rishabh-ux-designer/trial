@@ -103,8 +103,7 @@ function VerificationCard({ school, verified, status, tone, onClick }) {
   );
 }
 
-function NbfcHome({ onBack, onCreate, onOpenKyc, onOpenVerification }) {
-  const [tab, setTab] = useState("kyc");
+function NbfcHome({ tab, setTab, onBack, onCreate, onOpenKyc, onOpenVerification }) {
   const [query, setQuery] = useState("");
   const cards = [
     {
@@ -565,6 +564,7 @@ function App() {
   const [reviewFailed, setReviewFailed] = useState(false);
   const [processingNext, setProcessingNext] = useState(null);
   const [returnPage, setReturnPage] = useState("create");
+  const [nbfcTab, setNbfcTab] = useState("kyc");
 
   const go = (next) => setPage(next);
   const startProcessing = (next) => setProcessingNext(next);
@@ -578,6 +578,8 @@ function App() {
       {page === "dashboard" && <Dashboard onOpen={() => go("nbfc")} />}
       {page === "nbfc" && (
         <NbfcHome
+          tab={nbfcTab}
+          setTab={setNbfcTab}
           onBack={() => go("dashboard")}
           onCreate={() => {
             setDraft(initialDraft);
