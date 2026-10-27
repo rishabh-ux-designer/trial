@@ -83,7 +83,27 @@ function ApplicationCard({ school, members, creator, status, tone, onClick }) {
   );
 }
 
-function NbfcHome({ onBack, onCreate, onOpenKyc }) {
+function VerificationCard({ school, verified, status, tone, onClick }) {
+  const progress = (verified / 4) * 100;
+  return (
+    <button className="verification-card" type="button" onClick={onClick}>
+      <div className="verification-card-top">
+        <span>#APP-884291-0X</span>
+        {status && <StatusTag tone={tone}>{status}</StatusTag>}
+      </div>
+      <strong>{school}</strong>
+      <div className="document-status">
+        <span>Document Status</span>
+        <span>{verified}/4 Verified</span>
+      </div>
+      <div className="progress-track">
+        <span style={{ width: `${progress}%` }} />
+      </div>
+    </button>
+  );
+}
+
+function NbfcHome({ onBack, onCreate, onOpenKyc, onOpenVerification }) {
   const [tab, setTab] = useState("kyc");
   const [query, setQuery] = useState("");
   const cards = [
@@ -102,13 +122,21 @@ function NbfcHome({ onBack, onCreate, onOpenKyc }) {
       tone: "red",
     },
   ].filter((card) => card.school.toLowerCase().includes(query.toLowerCase()));
+  const verificationCards = [
+    { school: "St. Xavier's International School", verified: 0 },
+    { school: "Sunrise High School", verified: 4, status: "Approved", tone: "green" },
+    { school: "Green Valley Institute", verified: 1, status: "Reject", tone: "red" },
+    { school: "Sunrise High School", verified: 4, status: "Approved", tone: "green" },
+    { school: "Sunrise High School", verified: 4, status: "Approved", tone: "green" },
+  ].filter((card) => card.school.toLowerCase().includes(query.toLowerCase()));
+  const visibleCards = tab === "kyc" ? cards : verificationCards;
 
   return (
     <main className="screen">
       <Header title="NBFC" onBack={onBack} />
       <section className="nbfc-content">
         <label className="search-box">
-          <img src={`${assets}/9c000.svg`} alt="" />
+          <img src={`${assets}/${tab === "verification" ? "8061a.svg" : "9c000.svg"}`} alt="" />
           <input
             value={query}
             onChange={(event) => setQuery(event.target.value)}
@@ -128,16 +156,24 @@ function NbfcHome({ onBack, onCreate, onOpenKyc }) {
           </button>
         </div>
         <div className="application-list">
-          {cards.map((card, index) => (
-            <ApplicationCard
-              key={card.school}
-              {...card}
-              onClick={() => onOpenKyc(index === 1)}
-            />
-          ))}
+          {tab === "kyc"
+            ? cards.map((card, index) => (
+                <ApplicationCard
+                  key={card.school}
+                  {...card}
+                  onClick={() => onOpenKyc(index === 1)}
+                />
+              ))
+            : verificationCards.map((card, index) => (
+                <VerificationCard
+                  key={`${card.school}-${index}`}
+                  {...card}
+                  onClick={onOpenVerification}
+                />
+              ))}
         </div>
       </section>
-      {!cards.length && (
+      {!visibleCards.length && (
         <div className="empty-state">
           <img src={`${assets}/9e412.svg`} alt="" />
           <p>No data available</p>
@@ -146,6 +182,46 @@ function NbfcHome({ onBack, onCreate, onOpenKyc }) {
       <button className="fab" type="button" onClick={onCreate} aria-label="Create application">
         <img src={`${assets}/66e1f.svg`} alt="" />
       </button>
+    </main>
+  );
+}
+
+function DocumentSubmission({ onBack, onEdit }) {
+  const sections = [
+    ["a0bf4.svg", "KYC Members", "3 Members added"],
+    ["129f7.svg", "School Documents", "5 of 10 Uploaded"],
+    ["3faa2.svg", "Borrower Documents", "1 of 10 Uploaded"],
+    ["bcfe1.svg", "Guarantor Documents", "10 of 10 Uploaded"],
+    ["34ca8.svg", "Other", "3 of 10 Uploaded"],
+    ["3faa2.svg", "Borrower Refrence", "0 person added"],
+    ["250e8.svg", "Fee Collection Record", "0 Uploaded"],
+    ["250e8.svg", "Share Location", "Not share yet"],
+  ];
+
+  return (
+    <main className="screen soft-screen">
+      <Header title="Document Submission" onBack={onBack} />
+      <section className="submission-content">
+        <section className="submission-summary">
+          <button type="button" onClick={onEdit}>Edit</button>
+          <span>APPLICATION ID</span>
+          <h2>#APP-884291-0X</h2>
+          <p><img src={`${assets}/17509.svg`} alt="" /> St. Xavier's International School</p>
+          <p><img src={`${assets}/5762c.svg`} alt="" /> Borrower: Rajesh kumar</p>
+          <p><img src={`${assets}/8a453.svg`} alt="" /> Guarantor: Chetan kaur</p>
+        </section>
+        <div className="submission-list">
+          {sections.map(([icon, title, description]) => (
+            <button className="submission-row" type="button" key={title}>
+              <span className="submission-icon"><img src={`${assets}/${icon}`} alt="" /></span>
+              <span>
+                <strong>{title}</strong>
+                <small>{description}</small>
+              </span>
+            </button>
+          ))}
+        </div>
+      </section>
     </main>
   );
 }
@@ -510,6 +586,24 @@ function App() {
           onOpenKyc={(isRejected) => {
             setRejected(isRejected);
             go("kyc");
+          }}
+          onOpenVerification={() => go("verification-detail")}
+        />
+      )}
+      {page === "verification-detail" && (
+        <DocumentSubmission
+          onBack={() => go("nbfc")}
+          onEdit={() => {
+            setDraft({
+              type: "UDISE",
+              udise: "68574635242",
+              school: "St. Xavier's International School",
+              people: [
+                { name: "Rajesh kumar", phone: "98675643565", documents: 1 },
+                { name: "Chetan kaur", phone: "96575643565", documents: 1 },
+              ],
+            });
+            go("create");
           }}
         />
       )}
