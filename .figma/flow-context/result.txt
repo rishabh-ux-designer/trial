@@ -1,0 +1,1105 @@
+<section id="71:15142" name="Create/ KYC flow" x="-2249" y="-5052" width="4689" height="2447">
+  <frame id="71:15143" name="Login Screen 71" x="3180" y="1575" width="375" height="801">
+    <frame id="71:15144" name="Frame 162886" x="16" y="120" width="343" height="44">
+      <instance id="71:15145" name="icon/search" x="12" y="12" width="20" height="20" />
+      <text id="71:15146" name="Search UDISE, ID and school name.." x="40" y="11" width="291" height="22" />
+    </frame>
+    <frame id="71:15147" name="Chat Tab bar." x="18" y="182" width="340" height="44">
+      <frame id="71:15148" name="Frame 163216" x="4" y="4" width="162" height="36">
+        <text id="71:15149" name="KYC" x="53.5" y="8" width="27" height="20" />
+        <frame id="71:15150" name="Group 162828" x="86.5" y="7" width="22" height="22">
+          <ellipse id="71:15151" name="Oval" x="86.5" y="7" width="22" height="22" />
+          <text id="71:15152" name="1.20 PM" x="94.5" y="10" width="6.875" height="15.125" />
+        </frame>
+      </frame>
+      <frame id="71:15153" name="Frame 163217" x="174" y="4" width="162" height="36">
+        <text id="71:15154" name="Verification" x="27.5" y="8.5" width="79" height="19" />
+        <frame id="71:15155" name="Group 162828" x="112.5" y="7" width="22" height="22">
+          <ellipse id="71:15156" name="Oval" x="112.5" y="7" width="22" height="22" />
+          <text id="71:15157" name="1.20 PM" x="120.5" y="10" width="6.875" height="15.125" />
+        </frame>
+      </frame>
+    </frame>
+    <frame id="71:15158" name="Frame 2085666008" x="16" y="244" width="343" height="258">
+      <frame id="71:15159" name="Application Card 5" x="0" y="0" width="343" height="119">
+        <frame id="71:15160" name="Container" x="17" y="17" width="309" height="53">
+          <frame id="71:15161" name="Paragraph" x="0" y="0" width="245" height="53">
+            <text id="71:15162" name="#APP-884291-0X" x="0" y="5.5" width="114" height="19" />
+            <text id="71:15163" name="St. Xavier&#39;s International School" x="0" y="31" width="245" height="22" />
+          </frame>
+          <instance id="71:15164" name="Status tag for mobile" x="245" y="0" width="73" height="22" />
+        </frame>
+        <frame id="71:15165" name="Container" x="17" y="86" width="309" height="16">
+          <frame id="71:15166" name="Container" x="0" y="0" width="309" height="16">
+            <frame id="71:15167" name="Container" x="0" y="0" width="67" height="16">
+              <text id="71:15168" name="3 members" x="0" y="0" width="67" height="16" />
+            </frame>
+            <frame id="71:15169" name="Container" x="169" y="0" width="140" height="16">
+              <text id="71:15170" name="Created by: Ravi Kumar" x="0" y="0" width="140" height="16" />
+            </frame>
+          </frame>
+        </frame>
+      </frame>
+      <frame id="71:15171" name="Application Card 8" x="0" y="139" width="343" height="119">
+        <frame id="71:15172" name="Container" x="17" y="17" width="309" height="53">
+          <frame id="71:15173" name="Paragraph" x="0" y="0" width="168" height="53">
+            <text id="71:15174" name="#APP-884291-0X" x="0" y="5.5" width="114" height="19" />
+            <text id="71:15175" name="Green Valley Institute" x="0" y="31" width="168" height="22" />
+          </frame>
+          <instance id="71:15176" name="Status tag for mobile" x="248" y="0" width="61" height="22" />
+        </frame>
+        <frame id="71:15177" name="Container" x="17" y="86" width="309" height="16">
+          <frame id="71:15178" name="Container" x="0" y="0" width="309" height="16">
+            <frame id="71:15179" name="Container" x="0" y="0" width="61" height="16">
+              <text id="71:15180" name="1 member" x="0" y="0" width="61" height="16" />
+            </frame>
+            <text id="71:15181" name="Created by: Shivam Jain" x="169" y="0" width="140" height="16" />
+          </frame>
+        </frame>
+      </frame>
+    </frame>
+    <frame id="71:15182" name="FAB Container" x="294" y="704" width="64" height="64">
+      <frame id="71:15183" name="plus" x="18" y="18" width="28" height="28" />
+    </frame>
+    <frame id="71:15185" name="Header" x="0" y="0" width="375" height="45">
+      <frame id="71:15186" name="Frame 790" x="0" y="0" width="375" height="44">
+        <frame id="71:15187" name="Frame 789" x="0" y="0" width="375" height="44">
+          <frame id="71:15188" name="Statusbar" x="0" y="0" width="375" height="44">
+            <text id="71:15189" name="Time" x="24" y="14" width="30" height="20" />
+            <frame id="71:15190" name="Battery" x="336.33331298828125" y="17.333343505859375" width="24.32803726196289" height="11.333333015441895" />
+            <boolean-operation id="71:15194" name="Wifi" x="316" y="17.3306884765625" width="15.333016395568848" height="10.999930381774902" />
+            <boolean-operation id="71:15198" name="Cellular Connection" x="294" y="17.666656494140625" width="17" height="10.6669921875" />
+          </frame>
+        </frame>
+      </frame>
+      <rounded-rectangle id="71:15203" name="Rectangle 26790" x="0" y="44" width="375" height="1" />
+    </frame>
+    <frame id="71:15204" name="Frame" x="0" y="44" width="375" height="56">
+      <frame id="71:15205" name="Frame" x="16" y="16" width="84" height="24">
+        <instance id="71:15206" name="icon/chevron-left" x="0" y="0" width="24" height="24" />
+        <text id="71:15207" name="NBFC" x="36" y="0" width="48" height="24" />
+      </frame>
+    </frame>
+  </frame>
+  <frame id="71:15208" name="Login Screen 70" x="3701" y="1575" width="375" height="800">
+    <frame id="71:15209" name="Frame 1000001439" x="0" y="112" width="375" height="671">
+      <frame id="71:15210" name="Section - Application Summary Card" x="16" y="0" width="343" height="148">
+        <frame id="71:15211" name="Container" x="14" y="14" width="315" height="120">
+          <frame id="71:15212" name="Container" x="0" y="0" width="315" height="44">
+            <frame id="71:15213" name="Container" x="0" y="0" width="176" height="44">
+              <frame id="71:15214" name="Container" x="0" y="0" width="176" height="16">
+                <text id="71:15215" name="APPLICATION ID" x="0" y="0" width="99" height="16" />
+              </frame>
+              <frame id="71:15216" name="Heading 2" x="0" y="16" width="176" height="28">
+                <text id="71:15217" name="#APP-884291-0X" x="0" y="0" width="176" height="28" />
+              </frame>
+            </frame>
+          </frame>
+          <frame id="71:15218" name="Container" x="0" y="52" width="315" height="68">
+            <frame id="71:15219" name="Container" x="0" y="0" width="315" height="20">
+              <frame id="71:15220" name="Container" x="0" y="5" width="13" height="10">
+                <vector id="71:15221" name="Icon" x="0" y="0" width="12.833333015441895" height="10.5" />
+              </frame>
+              <text id="71:15222" name="St. Xavier&#39;s International School" x="17" y="0" width="213" height="20" />
+            </frame>
+            <frame id="71:15223" name="Container" x="0" y="24" width="315" height="20">
+              <frame id="71:15224" name="Container" x="0" y="5" width="13" height="10">
+                <vector id="71:15225" name="Icon" x="1.8333334922790527" y="0.33333349227905273" width="9.333333015441895" height="9.333333015441895" />
+              </frame>
+              <text id="71:15226" name="Borrower: --------" x="17" y="0" width="110" height="20" />
+            </frame>
+            <frame id="71:15227" name="Container" x="0" y="48" width="315" height="20">
+              <frame id="71:15228" name="Container" x="0" y="5.333333492279053" width="13" height="9.333333015441895">
+                <vector id="71:15229" name="Icon" x="0" y="0" width="12.833333015441895" height="9.333333015441895" />
+              </frame>
+              <text id="71:15230" name="Guarantor: --------" x="17" y="0" width="116" height="20" />
+            </frame>
+          </frame>
+        </frame>
+        <text id="71:15231" name="Edit" x="299" y="14" width="30" height="22" />
+      </frame>
+      <frame id="71:15232" name="Frame 1000001434" x="0" y="164" width="375" height="507" />
+    </frame>
+    <frame id="71:15233" name="Frame 2085666009" x="16" y="295" width="343" height="260">
+      <frame id="71:15234" name="Frame 1000001437" x="0" y="0" width="343" height="58">
+        <frame id="71:15235" name="Frame 1000001436" x="10" y="18" width="323" height="22">
+          <frame id="71:15236" name="Heading 3" x="0" y="0" width="130" height="22">
+            <text id="71:15237" name="last year book set" x="0" y="1" width="124" height="20" />
+          </frame>
+          <frame id="71:15238" name="Frame 1000001442" x="307" y="3" width="16" height="16">
+            <frame id="71:15239" name="Frame 1000001441" x="0" y="0" width="16" height="16">
+              <vector id="71:15240" name="icon" x="11.700000762939453" y="2.000000238418579" width="7.400000619904176" height="12.000000323464064" />
+            </frame>
+          </frame>
+        </frame>
+      </frame>
+      <frame id="71:15241" name="Frame 1000001435" x="0" y="72" width="343" height="58">
+        <frame id="71:15242" name="Frame 1000001437" x="10" y="15" width="28" height="28">
+          <instance id="71:15243" name="icon/user" x="4" y="4" width="20" height="20" />
+        </frame>
+        <frame id="71:15244" name="Frame 1000001436" x="46" y="10" width="251" height="38">
+          <frame id="71:15245" name="Heading 3" x="0" y="0" width="130" height="38">
+            <text id="71:15246" name="Mohit kumar" x="0" y="1" width="130" height="20" />
+            <text id="71:15247" name="98675643565" x="0" y="21" width="130" height="16" />
+          </frame>
+          <instance id="71:15248" name="Status tag for mobile" x="190" y="8" width="61" height="22" />
+        </frame>
+        <frame id="71:15249" name="Frame 1000001438" x="305" y="15" width="28" height="28">
+          <instance id="71:15250" name="icon/trash-2" x="4" y="4" width="20" height="20" />
+        </frame>
+      </frame>
+      <frame id="71:15251" name="Frame 1000001436" x="0" y="144" width="343" height="58">
+        <frame id="71:15252" name="Frame 1000001437" x="10" y="15" width="28" height="28">
+          <instance id="71:15253" name="icon/user" x="4" y="4" width="20" height="20" />
+        </frame>
+        <frame id="71:15254" name="Frame 1000001436" x="46" y="10" width="251" height="38">
+          <frame id="71:15255" name="Heading 3" x="0" y="0" width="130" height="38">
+            <text id="71:15256" name="Shubham" x="0" y="1" width="130" height="20" />
+            <text id="71:15257" name="96575643565" x="0" y="21" width="130" height="16" />
+          </frame>
+          <instance id="71:15258" name="Status tag for mobile" x="168" y="8" width="83" height="22" />
+        </frame>
+        <frame id="71:15259" name="Frame 1000001438" x="305" y="15" width="28" height="28">
+          <instance id="71:15260" name="icon/trash-2" x="4" y="4" width="20" height="20" />
+        </frame>
+      </frame>
+      <frame id="71:15261" name="add-person-button" x="0" y="216" width="343" height="44">
+        <frame id="71:15262" name="plus-icon" x="117.5" y="12" width="20" height="20">
+          <frame id="71:15263" name="Frame" x="3" y="3" width="14" height="14">
+            <frame id="71:15264" name="plus" x="0" y="0" width="14" height="14" />
+          </frame>
+        </frame>
+        <text id="71:15266" name="Add Person" x="145.5" y="12" width="80" height="20" />
+      </frame>
+    </frame>
+    <frame id="71:15267" name="Frame" x="0" y="44" width="375" height="56">
+      <frame id="71:15268" name="Frame" x="16" y="16" width="130" height="24">
+        <instance id="71:15269" name="icon/chevron-left" x="0" y="0" width="24" height="24" />
+        <text id="71:15270" name="Under KYC" x="36" y="0" width="94" height="24" />
+      </frame>
+    </frame>
+    <frame id="71:15271" name="Header" x="0" y="0" width="375" height="45">
+      <frame id="71:15272" name="Frame 790" x="0" y="0" width="375" height="44">
+        <frame id="71:15273" name="Frame 789" x="0" y="0" width="375" height="44">
+          <frame id="71:15274" name="Statusbar" x="0" y="0" width="375" height="44">
+            <text id="71:15275" name="Time" x="24" y="14" width="30" height="20" />
+            <frame id="71:15276" name="Battery" x="336.33331298828125" y="17.333343505859375" width="24.32803726196289" height="11.333333015441895" />
+            <boolean-operation id="71:15280" name="Wifi" x="316" y="17.3306884765625" width="15.333016395568848" height="10.999930381774902" />
+            <boolean-operation id="71:15284" name="Cellular Connection" x="294" y="17.666656494140625" width="17" height="10.6669921875" />
+          </frame>
+        </frame>
+      </frame>
+      <rounded-rectangle id="71:15289" name="Rectangle 26790" x="0" y="44" width="375" height="1" />
+    </frame>
+  </frame>
+  <frame id="71:15290" name="Login Screen 165" x="4121" y="1575" width="375" height="800">
+    <frame id="71:15291" name="Frame 1000001439" x="0" y="147" width="375" height="671">
+      <frame id="71:15292" name="Frame 1000001434" x="0" y="0" width="375" height="678">
+        <frame id="71:15293" name="Section - Application Summary Card" x="16" y="20" width="343" height="148">
+          <frame id="71:15294" name="Container" x="14" y="14" width="315" height="120">
+            <frame id="71:15295" name="Container" x="0" y="0" width="315" height="44">
+              <frame id="71:15296" name="Container" x="0" y="0" width="176" height="44">
+                <frame id="71:15297" name="Container" x="0" y="0" width="176" height="16">
+                  <text id="71:15298" name="APPLICATION ID" x="0" y="0" width="99" height="16" />
+                </frame>
+                <frame id="71:15299" name="Heading 2" x="0" y="16" width="176" height="28">
+                  <text id="71:15300" name="#APP-884291-0X" x="0" y="0" width="176" height="28" />
+                </frame>
+              </frame>
+            </frame>
+            <frame id="71:15301" name="Container" x="0" y="52" width="315" height="68">
+              <frame id="71:15302" name="Container" x="0" y="0" width="315" height="20">
+                <frame id="71:15303" name="Container" x="0" y="5" width="13" height="10">
+                  <vector id="71:15304" name="Icon" x="0" y="0" width="12.833333015441895" height="10.5" />
+                </frame>
+                <text id="71:15305" name="St. Xavier&#39;s International School" x="17" y="0" width="213" height="20" />
+              </frame>
+              <frame id="71:15306" name="Container" x="0" y="24" width="315" height="20">
+                <frame id="71:15307" name="Container" x="0" y="5" width="13" height="10">
+                  <vector id="71:15308" name="Icon" x="1.8333334922790527" y="0.33333349227905273" width="9.333333015441895" height="9.333333015441895" />
+                </frame>
+                <text id="71:15309" name="Borrower: --------" x="17" y="0" width="110" height="20" />
+              </frame>
+              <frame id="71:15310" name="Container" x="0" y="48" width="315" height="20">
+                <frame id="71:15311" name="Container" x="0" y="5.333333492279053" width="13" height="9.333333015441895">
+                  <vector id="71:15312" name="Icon" x="0" y="0" width="12.833333015441895" height="9.333333015441895" />
+                </frame>
+                <text id="71:15313" name="Guarantor: --------" x="17" y="0" width="116" height="20" />
+              </frame>
+            </frame>
+          </frame>
+          <text id="71:15314" name="Edit" x="299" y="14" width="30" height="22" />
+        </frame>
+        <frame id="71:15315" name="Frame 2085666009" x="16" y="182" width="343" height="260">
+          <frame id="71:15316" name="Frame 1000001437" x="0" y="0" width="343" height="58">
+            <frame id="71:15317" name="Frame 1000001436" x="10" y="18" width="323" height="22">
+              <frame id="71:15318" name="Heading 3" x="0" y="0" width="130" height="22">
+                <text id="71:15319" name="last year book set" x="0" y="1" width="124" height="20" />
+              </frame>
+              <frame id="71:15320" name="Frame 1000001442" x="307" y="3" width="16" height="16">
+                <frame id="71:15321" name="Frame 1000001441" x="0" y="0" width="16" height="16">
+                  <vector id="71:15322" name="icon" x="11.700000762939453" y="2.000000238418579" width="7.400000619903949" height="12.000000323464064" />
+                </frame>
+              </frame>
+            </frame>
+          </frame>
+          <frame id="71:15323" name="Frame 1000001435" x="0" y="72" width="343" height="58">
+            <frame id="71:15324" name="Frame 1000001437" x="10" y="15" width="28" height="28">
+              <instance id="71:15325" name="icon/user" x="4" y="4" width="20" height="20" />
+            </frame>
+            <frame id="71:15326" name="Frame 1000001436" x="46" y="10" width="251" height="38">
+              <frame id="71:15327" name="Heading 3" x="0" y="0" width="130" height="38">
+                <text id="71:15328" name="Mohit kumar" x="0" y="1" width="130" height="20" />
+                <text id="71:15329" name="98675643565" x="0" y="21" width="130" height="16" />
+              </frame>
+              <instance id="71:15330" name="Status tag for mobile" x="190" y="8" width="61" height="22" />
+            </frame>
+            <frame id="71:15331" name="Frame 1000001438" x="305" y="15" width="28" height="28">
+              <instance id="71:15332" name="icon/trash-2" x="4" y="4" width="20" height="20" />
+            </frame>
+          </frame>
+          <frame id="71:15333" name="Frame 1000001436" x="0" y="144" width="343" height="58">
+            <frame id="71:15334" name="Frame 1000001437" x="10" y="15" width="28" height="28">
+              <instance id="71:15335" name="icon/user" x="4" y="4" width="20" height="20" />
+            </frame>
+            <frame id="71:15336" name="Frame 1000001436" x="46" y="10" width="251" height="38">
+              <frame id="71:15337" name="Heading 3" x="0" y="0" width="130" height="38">
+                <text id="71:15338" name="Shubham" x="0" y="1" width="130" height="20" />
+                <text id="71:15339" name="96575643565" x="0" y="21" width="130" height="16" />
+              </frame>
+              <instance id="71:15340" name="Status tag for mobile" x="168" y="8" width="83" height="22" />
+            </frame>
+            <frame id="71:15341" name="Frame 1000001438" x="305" y="15" width="28" height="28">
+              <instance id="71:15342" name="icon/trash-2" x="4" y="4" width="20" height="20" />
+            </frame>
+          </frame>
+          <frame id="71:15343" name="add-person-button" x="0" y="216" width="343" height="44">
+            <frame id="71:15344" name="plus-icon" x="117.5" y="12" width="20" height="20">
+              <frame id="71:15345" name="Frame" x="3" y="3" width="14" height="14">
+                <frame id="71:15346" name="plus" x="0" y="0" width="14" height="14" />
+              </frame>
+            </frame>
+            <text id="71:15348" name="Add Person" x="145.5" y="12" width="80" height="20" />
+          </frame>
+        </frame>
+      </frame>
+    </frame>
+    <frame id="71:15349" name="Rejection Reason Card" x="0" y="100" width="375" height="47">
+      <text id="71:15350" name="Document is unclear. Please upload correct docs" x="16" y="15.5" width="347" height="16" />
+    </frame>
+    <frame id="71:15351" name="Frame" x="0" y="44" width="375" height="56">
+      <frame id="71:15352" name="Frame" x="16" y="16" width="130" height="24">
+        <instance id="71:15353" name="icon/chevron-left" x="0" y="0" width="24" height="24" />
+        <text id="71:15354" name="Under KYC" x="36" y="0" width="94" height="24" />
+      </frame>
+    </frame>
+    <frame id="71:15355" name="Header" x="0" y="0" width="375" height="45">
+      <frame id="71:15356" name="Frame 790" x="0" y="0" width="375" height="44">
+        <frame id="71:15357" name="Frame 789" x="0" y="0" width="375" height="44">
+          <frame id="71:15358" name="Statusbar" x="0" y="0" width="375" height="44">
+            <text id="71:15359" name="Time" x="24" y="14" width="30" height="20" />
+            <frame id="71:15360" name="Battery" x="336.33331298828125" y="17.333343505859375" width="24.32803726196289" height="11.333333015441895" />
+            <boolean-operation id="71:15364" name="Wifi" x="316" y="17.3306884765625" width="15.333016395568848" height="10.999930381774902" />
+            <boolean-operation id="71:15368" name="Cellular Connection" x="294" y="17.666656494140625" width="17" height="10.6669921875" />
+          </frame>
+        </frame>
+      </frame>
+      <rounded-rectangle id="71:15373" name="Rectangle 26790" x="0" y="44" width="375" height="1" />
+    </frame>
+  </frame>
+  <frame id="71:15374" name="Login Screen 131" x="1160" y="1542" width="375" height="800">
+    <frame id="71:15375" name="Frame" x="16" y="112" width="343" height="312">
+      <frame id="71:15376" name="field" x="0" y="0" width="343" height="72">
+        <text id="71:15377" name="Full Name" x="0" y="0" width="343" height="20" />
+        <frame id="71:15378" name="input-container" x="0" y="28" width="343" height="44">
+          <text id="71:15379" name="Mohit" x="14" y="10" width="283" height="24" />
+          <instance id="71:15380" name="icon/edit" x="307" y="11" width="22" height="22" />
+        </frame>
+      </frame>
+      <frame id="71:15381" name="field" x="0" y="92" width="343" height="72">
+        <text id="71:15382" name="Phone Number" x="0" y="0" width="343" height="20" />
+        <frame id="71:15383" name="input-container" x="0" y="28" width="343" height="44">
+          <text id="71:15384" name="932525523255" x="14" y="10" width="315" height="24" />
+        </frame>
+      </frame>
+      <frame id="71:15385" name="Frame 2085666036" x="0" y="184" width="343" height="128">
+        <text id="71:15386" name="ID Proof" x="0" y="0" width="343" height="20" />
+        <frame id="71:15387" name="Frame 1000003008" x="0" y="28" width="343" height="100">
+          <frame id="71:15388" name="Image" x="0" y="0" width="100" height="100">
+            <rounded-rectangle id="71:15389" name="image 1" x="-51.828125" y="-15" width="203" height="130" />
+            <frame id="71:15390" name="Frame 2085665997" x="23.171875" y="31" width="53" height="38">
+              <instance id="71:15391" name="icon/plus-circle" x="14.5" y="0" width="24" height="24" />
+              <text id="71:15392" name="Upload File" x="0" y="24" width="53" height="14" />
+            </frame>
+          </frame>
+          <frame id="71:15393" name="Image" x="120" y="0" width="100" height="100">
+            <rounded-rectangle id="71:15394" name="image 1" x="1" y="1" width="98" height="98" />
+            <frame id="71:15395" name="Frame 1000002920" x="85" y="-7" width="20" height="20">
+              <vector id="71:15396" name="close_small" x="6" y="6" width="8" height="8" />
+            </frame>
+          </frame>
+          <frame id="71:15397" name="Image" x="240" y="0" width="100" height="100">
+            <rounded-rectangle id="71:15398" name="image 1" x="1" y="1" width="98" height="98" />
+            <frame id="71:15399" name="Frame 1000002920" x="85" y="-7" width="20" height="20">
+              <vector id="71:15400" name="close_small" x="6" y="6" width="8" height="8" />
+            </frame>
+          </frame>
+        </frame>
+      </frame>
+    </frame>
+    <frame id="71:15401" name="Error Snackbar" x="16" y="676" width="343" height="54">
+      <frame id="71:15402" name="Frame" x="16" y="15" width="173" height="24">
+        <instance id="71:15403" name="icon/alert-circle" x="0" y="0" width="24" height="24" />
+        <text id="71:15404" name="2 files not uploaded" x="34" y="2" width="139" height="20" />
+      </frame>
+      <frame id="71:15405" name="Frame" x="271" y="14" width="56" height="26">
+        <text id="71:15406" name="Retry" x="10" y="4" width="36" height="18" />
+      </frame>
+    </frame>
+    <frame id="71:15407" name="Frame" x="0" y="44" width="375" height="56">
+      <frame id="71:15408" name="Frame" x="16" y="16" width="161" height="24">
+        <instance id="71:15409" name="icon/chevron-left" x="0" y="0" width="24" height="24" />
+        <text id="71:15410" name="#APP-1000054" x="36" y="0" width="125" height="24" />
+      </frame>
+    </frame>
+    <frame id="71:15411" name="Header" x="0" y="0" width="375" height="45">
+      <frame id="71:15412" name="Frame 790" x="0" y="0" width="375" height="44">
+        <frame id="71:15413" name="Frame 789" x="0" y="0" width="375" height="44">
+          <frame id="71:15414" name="Statusbar" x="0" y="0" width="375" height="44">
+            <text id="71:15415" name="Time" x="24" y="14" width="30" height="20" />
+            <frame id="71:15416" name="Battery" x="336.33331298828125" y="17.333343505859375" width="24.32803726196289" height="11.333333015441895" />
+            <boolean-operation id="71:15420" name="Wifi" x="316" y="17.3306884765625" width="15.333016395568848" height="10.999930381774902" />
+            <boolean-operation id="71:15424" name="Cellular Connection" x="294" y="17.666656494140625" width="17" height="10.6669921875" />
+          </frame>
+        </frame>
+      </frame>
+      <rounded-rectangle id="71:15429" name="Rectangle 26790" x="0" y="44" width="375" height="1" />
+    </frame>
+    <frame id="71:15430" name="Footer Action" x="0" y="724" width="375" height="76">
+      <instance id="71:15431" name="Buttons" x="16" y="16" width="343" height="44" />
+    </frame>
+  </frame>
+  <frame id="71:15432" name="Login Screen 132" x="2066" y="1542" width="375" height="800">
+    <frame id="71:15433" name="Frame" x="16" y="112" width="343" height="312">
+      <frame id="71:15434" name="field" x="0" y="0" width="343" height="72">
+        <text id="71:15435" name="Full Name" x="0" y="0" width="343" height="20" />
+        <frame id="71:15436" name="input-container" x="0" y="28" width="343" height="44">
+          <text id="71:15437" name="Mohit" x="14" y="10" width="283" height="24" />
+          <instance id="71:15438" name="icon/edit" x="307" y="11" width="22" height="22" />
+        </frame>
+      </frame>
+      <frame id="71:15439" name="field" x="0" y="92" width="343" height="72">
+        <text id="71:15440" name="Phone Number" x="0" y="0" width="343" height="20" />
+        <frame id="71:15441" name="input-container" x="0" y="28" width="343" height="44">
+          <text id="71:15442" name="932525523255" x="14" y="10" width="315" height="24" />
+        </frame>
+      </frame>
+      <frame id="71:15443" name="Frame 2085666036" x="0" y="184" width="343" height="128">
+        <text id="71:15444" name="ID Proof" x="0" y="0" width="343" height="20" />
+        <frame id="71:15445" name="Frame 2085666037" x="0" y="28" width="208" height="100">
+          <frame id="71:15446" name="Image" x="0" y="0" width="100" height="100">
+            <rounded-rectangle id="71:15447" name="image 1" x="1" y="1" width="98" height="98" />
+          </frame>
+          <frame id="71:15448" name="Image" x="108" y="0" width="100" height="100">
+            <rounded-rectangle id="71:15449" name="image 1" x="1" y="1" width="98" height="98" />
+          </frame>
+        </frame>
+      </frame>
+    </frame>
+    <frame id="71:15450" name="Frame" x="0" y="44" width="375" height="56">
+      <frame id="71:15451" name="Frame" x="16" y="16" width="161" height="24">
+        <instance id="71:15452" name="icon/chevron-left" x="0" y="0" width="24" height="24" />
+        <text id="71:15453" name="#APP-1000054" x="36" y="0" width="125" height="24" />
+      </frame>
+    </frame>
+    <frame id="71:15454" name="Header" x="0" y="0" width="375" height="45">
+      <frame id="71:15455" name="Frame 790" x="0" y="0" width="375" height="44">
+        <frame id="71:15456" name="Frame 789" x="0" y="0" width="375" height="44">
+          <frame id="71:15457" name="Statusbar" x="0" y="0" width="375" height="44">
+            <text id="71:15458" name="Time" x="24" y="14" width="30" height="20" />
+            <frame id="71:15459" name="Battery" x="336.33331298828125" y="17.333343505859375" width="24.32803726196289" height="11.333333015441895" />
+            <boolean-operation id="71:15463" name="Wifi" x="316" y="17.3306884765625" width="15.333016395568848" height="10.999930381774902" />
+            <boolean-operation id="71:15467" name="Cellular Connection" x="294" y="17.666656494140625" width="17" height="10.6669921875" />
+          </frame>
+        </frame>
+      </frame>
+      <rounded-rectangle id="71:15472" name="Rectangle 26790" x="0" y="44" width="375" height="1" />
+    </frame>
+  </frame>
+  <frame id="71:15473" name="Login Screen 133" x="2519" y="1542" width="375" height="800">
+    <frame id="71:15474" name="Frame" x="16" y="112" width="343" height="312">
+      <frame id="71:15475" name="field" x="0" y="0" width="343" height="72">
+        <text id="71:15476" name="Full Name" x="0" y="0" width="343" height="20" />
+        <frame id="71:15477" name="input-container" x="0" y="28" width="343" height="44">
+          <text id="71:15478" name="Mohit Kumar" x="14" y="10" width="315" height="24" />
+        </frame>
+      </frame>
+      <frame id="71:15479" name="field" x="0" y="92" width="343" height="72">
+        <text id="71:15480" name="Phone Number" x="0" y="0" width="343" height="20" />
+        <frame id="71:15481" name="input-container" x="0" y="28" width="343" height="44">
+          <text id="71:15482" name="932525523255" x="14" y="10" width="315" height="24" />
+        </frame>
+      </frame>
+      <frame id="71:15483" name="Frame 2085666036" x="0" y="184" width="343" height="128">
+        <text id="71:15484" name="ID Proof" x="0" y="0" width="343" height="20" />
+        <frame id="71:15485" name="Frame 2085666037" x="0" y="28" width="208" height="100">
+          <frame id="71:15486" name="Image" x="0" y="0" width="100" height="100">
+            <rounded-rectangle id="71:15487" name="image 1" x="1" y="1" width="98" height="98" />
+          </frame>
+          <frame id="71:15488" name="Image" x="108" y="0" width="100" height="100">
+            <rounded-rectangle id="71:15489" name="image 1" x="1" y="1" width="98" height="98" />
+          </frame>
+        </frame>
+      </frame>
+    </frame>
+    <frame id="71:15490" name="Frame" x="0" y="44" width="375" height="56">
+      <frame id="71:15491" name="Frame" x="16" y="16" width="161" height="24">
+        <instance id="71:15492" name="icon/chevron-left" x="0" y="0" width="24" height="24" />
+        <text id="71:15493" name="#APP-1000054" x="36" y="0" width="125" height="24" />
+      </frame>
+    </frame>
+    <frame id="71:15494" name="Header" x="0" y="0" width="375" height="45">
+      <frame id="71:15495" name="Frame 790" x="0" y="0" width="375" height="44">
+        <frame id="71:15496" name="Frame 789" x="0" y="0" width="375" height="44">
+          <frame id="71:15497" name="Statusbar" x="0" y="0" width="375" height="44">
+            <text id="71:15498" name="Time" x="24" y="14" width="30" height="20" />
+            <frame id="71:15499" name="Battery" x="336.33331298828125" y="17.333343505859375" width="24.32803726196289" height="11.333333015441895" />
+            <boolean-operation id="71:15503" name="Wifi" x="316" y="17.3306884765625" width="15.333016395568848" height="10.999930381774902" />
+            <boolean-operation id="71:15507" name="Cellular Connection" x="294" y="17.666656494140625" width="17" height="10.6669921875" />
+          </frame>
+        </frame>
+      </frame>
+      <rounded-rectangle id="71:15512" name="Rectangle 26790" x="0" y="44" width="375" height="1" />
+    </frame>
+    <frame id="71:15513" name="Footer Action" x="0" y="724" width="375" height="76">
+      <instance id="71:15514" name="Buttons" x="16" y="16" width="343" height="44" />
+    </frame>
+  </frame>
+  <frame id="71:15515" name="Login Screen 127" x="689" y="1542" width="375" height="800">
+    <frame id="71:15516" name="Frame 1000001439" x="0" y="112" width="375" height="671">
+      <frame id="71:15517" name="Section - Application Summary Card" x="16" y="0" width="343" height="148">
+        <frame id="71:15518" name="Container" x="14" y="14" width="315" height="120">
+          <frame id="71:15519" name="Container" x="0" y="0" width="315" height="44">
+            <frame id="71:15520" name="Container" x="0" y="0" width="176" height="44">
+              <frame id="71:15521" name="Container" x="0" y="0" width="176" height="16">
+                <text id="71:15522" name="APPLICATION ID" x="0" y="0" width="99" height="16" />
+              </frame>
+              <frame id="71:15523" name="Heading 2" x="0" y="16" width="176" height="28">
+                <text id="71:15524" name="#APP-884291-0X" x="0" y="0" width="176" height="28" />
+              </frame>
+            </frame>
+          </frame>
+          <frame id="71:15525" name="Container" x="0" y="52" width="315" height="68">
+            <frame id="71:15526" name="Container" x="0" y="0" width="315" height="20">
+              <frame id="71:15527" name="Container" x="0" y="5" width="13" height="10">
+                <vector id="71:15528" name="Icon" x="0" y="0" width="12.833333015441895" height="10.5" />
+              </frame>
+              <text id="71:15529" name="St. Xavier&#39;s International School" x="17" y="0" width="213" height="20" />
+            </frame>
+            <frame id="71:15530" name="Container" x="0" y="24" width="315" height="20">
+              <frame id="71:15531" name="Container" x="0" y="5" width="13" height="10">
+                <vector id="71:15532" name="Icon" x="1.8333334922790527" y="0.33333349227905273" width="9.333333015441895" height="9.333333015441895" />
+              </frame>
+              <text id="71:15533" name="Borrower: --------" x="17" y="0" width="110" height="20" />
+            </frame>
+            <frame id="71:15534" name="Container" x="0" y="48" width="315" height="20">
+              <frame id="71:15535" name="Container" x="0" y="5.333333492279053" width="13" height="9.333333015441895">
+                <vector id="71:15536" name="Icon" x="0" y="0" width="12.833333015441895" height="9.333333015441895" />
+              </frame>
+              <text id="71:15537" name="Guarantor: --------" x="17" y="0" width="116" height="20" />
+            </frame>
+          </frame>
+        </frame>
+        <text id="71:15538" name="Edit" x="299" y="14" width="30" height="22" />
+      </frame>
+      <frame id="71:15539" name="Frame 1000001434" x="0" y="164" width="375" height="507" />
+    </frame>
+    <frame id="71:15540" name="Frame 2085666009" x="16" y="295" width="343" height="260">
+      <frame id="71:15541" name="Frame 1000001437" x="0" y="0" width="343" height="58">
+        <frame id="71:15542" name="Frame 1000001436" x="10" y="18" width="323" height="22">
+          <frame id="71:15543" name="Heading 3" x="0" y="0" width="130" height="22">
+            <text id="71:15544" name="Last year book set" x="0" y="1" width="128" height="20" />
+          </frame>
+          <frame id="71:15545" name="Frame 1000001442" x="236" y="0" width="87" height="22">
+            <instance id="71:15546" name="Status tag for mobile" x="0" y="0" width="61" height="22" />
+            <frame id="71:15547" name="Frame 1000001441" x="71" y="3" width="16" height="16">
+              <vector id="71:15548" name="icon" x="11.700000762939453" y="2.000000238418579" width="7.400000619904176" height="12.000000323464064" />
+            </frame>
+          </frame>
+        </frame>
+      </frame>
+      <frame id="71:15549" name="Frame 1000001435" x="0" y="72" width="343" height="58">
+        <frame id="71:15550" name="Frame 1000001437" x="10" y="15" width="28" height="28">
+          <instance id="71:15551" name="icon/user" x="4" y="4" width="20" height="20" />
+        </frame>
+        <frame id="71:15552" name="Frame 1000001436" x="46" y="10" width="287" height="38">
+          <frame id="71:15553" name="Heading 3" x="0" y="0" width="130" height="38">
+            <text id="71:15554" name="Mohit kumar" x="0" y="1" width="130" height="20" />
+            <text id="71:15555" name="98675643565" x="0" y="21" width="130" height="16" />
+          </frame>
+          <instance id="71:15556" name="Status tag for mobile" x="180" y="8" width="107" height="22" />
+        </frame>
+      </frame>
+      <frame id="71:15557" name="Frame 1000001436" x="0" y="144" width="343" height="58">
+        <frame id="71:15558" name="Frame 1000001437" x="10" y="15" width="28" height="28">
+          <instance id="71:15559" name="icon/user" x="4" y="4" width="20" height="20" />
+        </frame>
+        <frame id="71:15560" name="Frame 1000001436" x="46" y="10" width="251" height="38">
+          <frame id="71:15561" name="Heading 3" x="0" y="0" width="130" height="38">
+            <text id="71:15562" name="Shubham" x="0" y="1" width="130" height="20" />
+            <text id="71:15563" name="96575643565" x="0" y="21" width="130" height="16" />
+          </frame>
+          <instance id="71:15564" name="Status tag for mobile" x="168" y="8" width="83" height="22" />
+        </frame>
+        <frame id="71:15565" name="Frame 1000001438" x="305" y="15" width="28" height="28">
+          <instance id="71:15566" name="icon/trash-2" x="4" y="4" width="20" height="20" />
+        </frame>
+      </frame>
+      <frame id="71:15567" name="add-person-button" x="0" y="216" width="343" height="44">
+        <frame id="71:15568" name="plus-icon" x="117.5" y="12" width="20" height="20">
+          <frame id="71:15569" name="Frame" x="3" y="3" width="14" height="14">
+            <frame id="71:15570" name="plus" x="0" y="0" width="14" height="14" />
+          </frame>
+        </frame>
+        <text id="71:15572" name="Add Person" x="145.5" y="12" width="80" height="20" />
+      </frame>
+    </frame>
+    <frame id="71:15573" name="Frame" x="0" y="44" width="375" height="56">
+      <frame id="71:15574" name="Frame" x="16" y="16" width="130" height="24">
+        <instance id="71:15575" name="icon/chevron-left" x="0" y="0" width="24" height="24" />
+        <text id="71:15576" name="Under KYC" x="36" y="0" width="94" height="24" />
+      </frame>
+    </frame>
+    <frame id="71:15577" name="Header" x="0" y="0" width="375" height="45">
+      <frame id="71:15578" name="Frame 790" x="0" y="0" width="375" height="44">
+        <frame id="71:15579" name="Frame 789" x="0" y="0" width="375" height="44">
+          <frame id="71:15580" name="Statusbar" x="0" y="0" width="375" height="44">
+            <text id="71:15581" name="Time" x="24" y="14" width="30" height="20" />
+            <frame id="71:15582" name="Battery" x="336.33331298828125" y="17.333343505859375" width="24.32803726196289" height="11.333333015441895" />
+            <boolean-operation id="71:15586" name="Wifi" x="316" y="17.3306884765625" width="15.333016395568848" height="10.999930381774902" />
+            <boolean-operation id="71:15590" name="Cellular Connection" x="294" y="17.666656494140625" width="17" height="10.6669921875" />
+          </frame>
+        </frame>
+      </frame>
+      <rounded-rectangle id="71:15595" name="Rectangle 26790" x="0" y="44" width="375" height="1" />
+    </frame>
+  </frame>
+  <frame id="71:15596" name="Login Screen 172" x="131" y="450" width="375" height="800">
+    <frame id="71:15597" name="FAB Container" x="294" y="704" width="64" height="64">
+      <frame id="71:15598" name="plus" x="18" y="18" width="28" height="28" />
+    </frame>
+    <frame id="71:15600" name="Frame 162886" x="16" y="123" width="343" height="42">
+      <instance id="71:15601" name="icon/search" x="12" y="11" width="20" height="20" />
+      <text id="71:15602" name="Search UDISE, ID and school name.." x="40" y="10" width="291" height="22" />
+    </frame>
+    <frame id="71:15603" name="Chat Tab bar." x="18" y="182" width="340" height="44">
+      <frame id="71:15604" name="Frame 163216" x="4" y="4" width="162" height="36">
+        <text id="71:15605" name="KYC" x="61.0625" y="8" width="27" height="20" />
+        <frame id="71:15606" name="Group 162828" x="94.0625" y="10.4375" width="6.875" height="15.125">
+          <text id="71:15607" name="1.20 PM" x="94.0625" y="10.4375" width="6.875" height="15.125" />
+        </frame>
+      </frame>
+      <frame id="71:15608" name="Frame 163217" x="174" y="4" width="162" height="36">
+        <text id="71:15609" name="Verification" x="41.5" y="8.5" width="79" height="19" />
+      </frame>
+    </frame>
+    <frame id="71:15610" name="Frame 2085666025" x="120" y="375" width="135" height="69">
+      <frame id="71:15611" name="file-search" x="47.5" y="0" width="40" height="40" />
+      <text id="71:15613" name="Title" x="0" y="44" width="135" height="22" />
+    </frame>
+    <frame id="71:15614" name="Header" x="0" y="0" width="375" height="45">
+      <frame id="71:15615" name="Frame 790" x="0" y="0" width="375" height="44">
+        <frame id="71:15616" name="Frame 789" x="0" y="0" width="375" height="44">
+          <frame id="71:15617" name="Statusbar" x="0" y="0" width="375" height="44">
+            <text id="71:15618" name="Time" x="24" y="14" width="30" height="20" />
+            <frame id="71:15619" name="Battery" x="336.33331298828125" y="17.333343505859375" width="24.32803726196289" height="11.333333015441895" />
+            <boolean-operation id="71:15623" name="Wifi" x="316" y="17.3306884765625" width="15.333016395568848" height="10.999930381774902" />
+            <boolean-operation id="71:15627" name="Cellular Connection" x="294" y="17.666656494140625" width="17" height="10.6669921875" />
+          </frame>
+        </frame>
+      </frame>
+      <rounded-rectangle id="71:15632" name="Rectangle 26790" x="0" y="44" width="375" height="1" />
+    </frame>
+    <frame id="71:15633" name="Frame" x="0" y="44" width="375" height="56">
+      <frame id="71:15634" name="Frame" x="16" y="16" width="84" height="24">
+        <instance id="71:15635" name="icon/chevron-left" x="0" y="0" width="24" height="24" />
+        <text id="71:15636" name="NBFC" x="36" y="0" width="48" height="24" />
+      </frame>
+    </frame>
+  </frame>
+  <frame id="71:15637" name="Login Screen 173" x="927" y="449" width="375" height="800">
+    <frame id="71:15638" name="Frame 2085666026" x="16" y="127" width="343" height="161">
+      <instance id="71:15639" name="Input Fields" x="0" y="0" width="343" height="72" />
+      <instance id="71:15640" name="Input Fields" x="0" y="89" width="343" height="72" />
+    </frame>
+    <frame id="71:15641" name="Dropdown Panel" x="16" y="206" width="342" height="104">
+      <frame id="71:15642" name="Dropdown Item" x="8" y="8" width="326" height="44">
+        <text id="71:15643" name="UDISE number" x="14" y="10" width="96" height="19" />
+      </frame>
+      <frame id="71:15644" name="Dropdown Item Hover" x="8" y="52" width="326" height="44">
+        <text id="71:15645" name="Registration number" x="14" y="12.5" width="135" height="19" />
+        <instance id="71:15646" name="Radio button" x="288" y="10" width="24" height="24" />
+      </frame>
+    </frame>
+    <frame id="71:15647" name="Header" x="0" y="0" width="375" height="45">
+      <frame id="71:15648" name="Frame 790" x="0" y="0" width="375" height="44">
+        <frame id="71:15649" name="Frame 789" x="0" y="0" width="375" height="44">
+          <frame id="71:15650" name="Statusbar" x="0" y="0" width="375" height="44">
+            <text id="71:15651" name="Time" x="24" y="14" width="30" height="20" />
+            <frame id="71:15652" name="Battery" x="336.33331298828125" y="17.333343505859375" width="24.32803726196289" height="11.333333015441895" />
+            <boolean-operation id="71:15656" name="Wifi" x="316" y="17.3306884765625" width="15.333016395568848" height="10.999930381774902" />
+            <boolean-operation id="71:15660" name="Cellular Connection" x="294" y="17.666656494140625" width="17" height="10.6669921875" />
+          </frame>
+        </frame>
+      </frame>
+      <rounded-rectangle id="71:15665" name="Rectangle 26790" x="0" y="44" width="375" height="1" />
+    </frame>
+    <frame id="71:15666" name="Frame" x="0" y="44" width="375" height="56">
+      <frame id="71:15667" name="Frame" x="16" y="16" width="199" height="24">
+        <instance id="71:15668" name="icon/chevron-left" x="0" y="0" width="24" height="24" />
+        <text id="71:15669" name="Create Application" x="36" y="0" width="163" height="24" />
+      </frame>
+    </frame>
+    <frame id="71:15670" name="Footer Action" x="0" y="724" width="375" height="76">
+      <instance id="71:15671" name="Buttons" x="16" y="16" width="343" height="44" />
+    </frame>
+  </frame>
+  <frame id="71:15672" name="Login Screen 174" x="1348" y="449" width="375" height="800">
+    <frame id="71:15673" name="Frame 2085666054" x="16" y="127" width="343" height="430">
+      <frame id="71:15674" name="Frame 2085666026" x="0" y="0" width="343" height="325">
+        <instance id="71:15675" name="Input Fields" x="0" y="0" width="343" height="72" />
+        <instance id="71:15676" name="Input Fields" x="0" y="89" width="343" height="72" />
+        <instance id="71:15677" name="Input Fields" x="0" y="178" width="343" height="72" />
+        <frame id="71:15678" name="Frame 1000001435" x="0" y="267" width="343" height="58">
+          <frame id="71:15679" name="Frame 1000001436" x="10" y="18" width="323" height="22">
+            <frame id="71:15680" name="Heading 3" x="0" y="0" width="130" height="22">
+              <text id="71:15681" name="Last year book set" x="0" y="1" width="128" height="20" />
+            </frame>
+            <frame id="71:15682" name="Frame 1000001443" x="307" y="3" width="16" height="16">
+              <frame id="71:15683" name="Frame 1000001441" x="0" y="0" width="16" height="16">
+                <vector id="71:15684" name="icon" x="11.700000762939453" y="2.000000238418579" width="7.400000619904063" height="12.00000032346452" />
+              </frame>
+            </frame>
+          </frame>
+        </frame>
+      </frame>
+      <frame id="71:15685" name="Frame 2085666042" x="0" y="345" width="343" height="85">
+        <text id="71:15686" name="Persons" x="0" y="0" width="343" height="25" />
+        <frame id="71:15687" name="add-person-button" x="0" y="42" width="343" height="43">
+          <frame id="71:15688" name="plus-icon" x="117.5" y="11.5" width="20" height="20">
+            <frame id="71:15689" name="Frame" x="3" y="3" width="14" height="14">
+              <frame id="71:15690" name="plus" x="0" y="0" width="14" height="14" />
+            </frame>
+          </frame>
+          <text id="71:15692" name="Add Person" x="145.5" y="11.5" width="80" height="20" />
+        </frame>
+      </frame>
+    </frame>
+    <frame id="71:15693" name="Header" x="0" y="0" width="375" height="45">
+      <frame id="71:15694" name="Frame 790" x="0" y="0" width="375" height="44">
+        <frame id="71:15695" name="Frame 789" x="0" y="0" width="375" height="44">
+          <frame id="71:15696" name="Statusbar" x="0" y="0" width="375" height="44">
+            <text id="71:15697" name="Time" x="24" y="14" width="30" height="20" />
+            <frame id="71:15698" name="Battery" x="336.33331298828125" y="17.333343505859375" width="24.32803726196289" height="11.333333015441895" />
+            <boolean-operation id="71:15702" name="Wifi" x="316" y="17.3306884765625" width="15.333016395568848" height="10.999930381774902" />
+            <boolean-operation id="71:15706" name="Cellular Connection" x="294" y="17.666656494140625" width="17" height="10.6669921875" />
+          </frame>
+        </frame>
+      </frame>
+      <rounded-rectangle id="71:15711" name="Rectangle 26790" x="0" y="44" width="375" height="1" />
+    </frame>
+    <frame id="71:15712" name="Frame" x="0" y="44" width="375" height="56">
+      <frame id="71:15713" name="Frame" x="16" y="16" width="199" height="24">
+        <instance id="71:15714" name="icon/chevron-left" x="0" y="0" width="24" height="24" />
+        <text id="71:15715" name="Create Application" x="36" y="0" width="163" height="24" />
+      </frame>
+    </frame>
+    <frame id="71:15716" name="Footer Action" x="0" y="724" width="375" height="76">
+      <instance id="71:15717" name="Buttons" x="16" y="16" width="343" height="44" />
+    </frame>
+  </frame>
+  <frame id="71:15718" name="Login Screen 175" x="523" y="450" width="375" height="800">
+    <frame id="71:15719" name="Frame 2085666026" x="16" y="127" width="343" height="72">
+      <instance id="71:15720" name="Input Fields" x="0" y="0" width="343" height="72" />
+    </frame>
+    <frame id="71:15721" name="Header" x="0" y="0" width="375" height="45">
+      <frame id="71:15722" name="Frame 790" x="0" y="0" width="375" height="44">
+        <frame id="71:15723" name="Frame 789" x="0" y="0" width="375" height="44">
+          <frame id="71:15724" name="Statusbar" x="0" y="0" width="375" height="44">
+            <text id="71:15725" name="Time" x="24" y="14" width="30" height="20" />
+            <frame id="71:15726" name="Battery" x="336.33331298828125" y="17.333343505859375" width="24.32803726196289" height="11.333333015441895" />
+            <boolean-operation id="71:15730" name="Wifi" x="316" y="17.3306884765625" width="15.333016395568848" height="10.999930381774902" />
+            <boolean-operation id="71:15734" name="Cellular Connection" x="294" y="17.666656494140625" width="17" height="10.6669921875" />
+          </frame>
+        </frame>
+      </frame>
+      <rounded-rectangle id="71:15739" name="Rectangle 26790" x="0" y="44" width="375" height="1" />
+    </frame>
+    <frame id="71:15740" name="Frame" x="0" y="44" width="375" height="56">
+      <frame id="71:15741" name="Frame" x="16" y="16" width="199" height="24">
+        <instance id="71:15742" name="icon/chevron-left" x="0" y="0" width="24" height="24" />
+        <text id="71:15743" name="Create Application" x="36" y="0" width="163" height="24" />
+      </frame>
+    </frame>
+    <frame id="71:15744" name="Footer Action" x="0" y="724" width="375" height="76">
+      <instance id="71:15745" name="Buttons" x="16" y="16" width="343" height="44" />
+    </frame>
+  </frame>
+  <frame id="71:15746" name="Login Screen 176" x="2627" y="449" width="375" height="800">
+    <frame id="71:15747" name="Frame" x="16" y="127" width="343" height="332">
+      <frame id="71:15748" name="field" x="0" y="0" width="343" height="72">
+        <text id="71:15749" name="Full Name" x="0" y="0" width="343" height="20" />
+        <frame id="71:15750" name="input-container" x="0" y="28" width="343" height="44">
+          <text id="71:15751" name="Enter full name" x="14" y="10" width="315" height="24" />
+        </frame>
+      </frame>
+      <frame id="71:15752" name="field" x="0" y="92" width="343" height="72">
+        <text id="71:15753" name="Phone Number" x="0" y="0" width="343" height="20" />
+        <frame id="71:15754" name="input-container" x="0" y="28" width="343" height="44">
+          <text id="71:15755" name="Enter phone number" x="14" y="10" width="315" height="24" />
+        </frame>
+      </frame>
+      <frame id="71:15756" name="upload-section" x="0" y="184" width="343" height="148">
+        <text id="71:15757" name="ID Proof" x="0" y="0" width="343" height="20" />
+        <frame id="71:15758" name="dropzone" x="0" y="28" width="343" height="120">
+          <frame id="71:15759" name="Frame" x="151.5" y="24" width="40" height="40">
+            <frame id="71:15760" name="upload-cloud" x="10" y="10" width="20" height="20" />
+          </frame>
+          <text id="71:15762" name="Tap to upload ID proof (JPG, PDF)" x="24" y="76" width="295" height="20" />
+        </frame>
+      </frame>
+    </frame>
+    <frame id="71:15763" name="Header" x="0" y="0" width="375" height="45">
+      <frame id="71:15764" name="Frame 790" x="0" y="0" width="375" height="44">
+        <frame id="71:15765" name="Frame 789" x="0" y="0" width="375" height="44">
+          <frame id="71:15766" name="Statusbar" x="0" y="0" width="375" height="44">
+            <text id="71:15767" name="Time" x="24" y="14" width="30" height="20" />
+            <frame id="71:15768" name="Battery" x="336.33331298828125" y="17.333343505859375" width="24.32803726196289" height="11.333333015441895" />
+            <boolean-operation id="71:15772" name="Wifi" x="316" y="17.3306884765625" width="15.333016395568848" height="10.999930381774902" />
+            <boolean-operation id="71:15776" name="Cellular Connection" x="294" y="17.666656494140625" width="17" height="10.6669921875" />
+          </frame>
+        </frame>
+      </frame>
+      <rounded-rectangle id="71:15781" name="Rectangle 26790" x="0" y="44" width="375" height="1" />
+    </frame>
+    <frame id="71:15782" name="Frame" x="0" y="44" width="375" height="56">
+      <frame id="71:15783" name="Frame" x="16" y="16" width="137" height="24">
+        <instance id="71:15784" name="icon/chevron-left" x="0" y="0" width="24" height="24" />
+        <text id="71:15785" name="Add Person" x="36" y="0" width="101" height="24" />
+      </frame>
+    </frame>
+    <frame id="71:15786" name="Footer Action" x="0" y="724" width="375" height="76">
+      <instance id="71:15787" name="Buttons" x="16" y="16" width="343" height="44" />
+    </frame>
+  </frame>
+  <frame id="71:15788" name="Login Screen 177" x="3689" y="449" width="375" height="800">
+    <frame id="71:15789" name="Frame" x="16" y="127" width="343" height="326">
+      <frame id="71:15790" name="field" x="0" y="0" width="343" height="72">
+        <text id="71:15791" name="Full Name" x="0" y="0" width="343" height="20" />
+        <frame id="71:15792" name="input-container" x="0" y="28" width="343" height="44">
+          <text id="71:15793" name="Mohit" x="14" y="10" width="315" height="24" />
+        </frame>
+      </frame>
+      <frame id="71:15794" name="field" x="0" y="92" width="343" height="72">
+        <text id="71:15795" name="Phone Number" x="0" y="0" width="343" height="20" />
+        <frame id="71:15796" name="input-container" x="0" y="28" width="343" height="44">
+          <text id="71:15797" name="932525523255" x="14" y="10" width="315" height="24" />
+        </frame>
+      </frame>
+      <frame id="71:15798" name="upload-section" x="0" y="184" width="343" height="142">
+        <text id="71:15799" name="ID Proof" x="0" y="0" width="343" height="20" />
+        <frame id="71:15800" name="Frame 1000003008" x="0" y="28" width="343" height="114">
+          <frame id="71:15801" name="Image" x="0" y="7" width="100" height="100">
+            <rounded-rectangle id="71:15802" name="image 1" x="-51.828125" y="-15" width="203" height="130" />
+            <frame id="71:15803" name="Frame 2085665997" x="23.171875" y="31" width="53" height="38">
+              <instance id="71:15804" name="icon/plus-circle" x="14.5" y="0" width="24" height="24" />
+              <text id="71:15805" name="Upload File" x="0" y="24" width="53" height="14" />
+            </frame>
+          </frame>
+          <frame id="71:15806" name="Image" x="120" y="7" width="100" height="100">
+            <rounded-rectangle id="71:15807" name="image 1" x="1" y="1" width="98" height="98" />
+            <frame id="71:15808" name="Frame 1000002920" x="85" y="-7" width="20" height="20">
+              <vector id="71:15809" name="close_small" x="6" y="6" width="8" height="8" />
+            </frame>
+          </frame>
+        </frame>
+      </frame>
+    </frame>
+    <frame id="71:15810" name="Header" x="0" y="0" width="375" height="45">
+      <frame id="71:15811" name="Frame 790" x="0" y="0" width="375" height="44">
+        <frame id="71:15812" name="Frame 789" x="0" y="0" width="375" height="44">
+          <frame id="71:15813" name="Statusbar" x="0" y="0" width="375" height="44">
+            <text id="71:15814" name="Time" x="24" y="14" width="30" height="20" />
+            <frame id="71:15815" name="Battery" x="336.33331298828125" y="17.333343505859375" width="24.32803726196289" height="11.333333015441895" />
+            <boolean-operation id="71:15819" name="Wifi" x="316" y="17.3306884765625" width="15.333016395568848" height="10.999930381774902" />
+            <boolean-operation id="71:15823" name="Cellular Connection" x="294" y="17.666656494140625" width="17" height="10.6669921875" />
+          </frame>
+        </frame>
+      </frame>
+      <rounded-rectangle id="71:15828" name="Rectangle 26790" x="0" y="44" width="375" height="1" />
+    </frame>
+    <frame id="71:15829" name="Frame" x="0" y="44" width="375" height="56">
+      <frame id="71:15830" name="Frame" x="16" y="16" width="137" height="24">
+        <instance id="71:15831" name="icon/chevron-left" x="0" y="0" width="24" height="24" />
+        <text id="71:15832" name="Add Person" x="36" y="0" width="101" height="24" />
+      </frame>
+    </frame>
+    <frame id="71:15833" name="Footer Action" x="0" y="724" width="375" height="76">
+      <instance id="71:15834" name="Buttons" x="16" y="16" width="343" height="44" />
+    </frame>
+  </frame>
+  <frame id="71:15835" name="Login Screen 178" x="4160" y="449" width="375" height="800">
+    <frame id="71:15836" name="Frame 2085666044" x="15" y="127" width="344" height="513">
+      <frame id="71:15837" name="Frame 2085666026" x="0" y="0" width="344" height="250">
+        <instance id="71:15838" name="Input Fields" x="0" y="0" width="344" height="72" />
+        <frame id="71:15839" name="Input Fields" x="0" y="89" width="344" height="72">
+          <frame id="71:15840" name="INPUT TEXT WITH LABEL" x="0" y="0" width="344" height="72">
+            <text id="71:15841" name="LABEL" x="0" y="0" width="102" height="20" />
+            <frame id="71:15842" name="INPUT" x="0" y="28" width="344" height="44">
+              <frame id="71:15843" name="CONTENT" x="0" y="0" width="344" height="44">
+                <frame id="71:15844" name="TEXT INPUT" x="14" y="10" width="316" height="24">
+                  <text id="71:15845" name="Leading text" x="0" y="0" width="11" height="24" hidden="true" />
+                  <text id="71:15846" name="68574635242" x="0" y="0" width="240" height="24" />
+                  <frame id="71:15847" name="Verified Badge" x="248" y="1" width="68" height="22">
+                    <frame id="71:15848" name="check-circle" x="8" y="5" width="12" height="12" />
+                    <text id="71:15850" name="Verified" x="24" y="4" width="36" height="14" />
+                  </frame>
+                </frame>
+                <instance id="71:15851" name="Help icon" x="318" y="14" width="16" height="16" hidden="true" />
+              </frame>
+              <frame id="71:15852" name="DROPDOWN" x="334" y="0" width="46" height="44" hidden="true">
+                <text id="71:15853" name="USD" x="14" y="10" width="33" height="24" hidden="true" />
+                <instance id="71:15854" name="icon/chevron-down" x="14" y="13" width="18" height="18" />
+              </frame>
+            </frame>
+          </frame>
+          <text id="71:15855" name="HINT" x="0" y="80" width="174" height="16" hidden="true" />
+        </frame>
+        <instance id="71:15856" name="Input Fields" x="0" y="178" width="344" height="72" />
+      </frame>
+      <frame id="71:15857" name="Frame 2085666043" x="0" y="289" width="344" height="224">
+        <text id="71:15858" name="Persons" x="0" y="0" width="344" height="24" />
+        <frame id="71:15859" name="Frame 2085666009" x="0" y="36" width="344" height="188">
+          <frame id="71:15860" name="Frame 1000001435" x="0" y="0" width="344" height="58">
+            <frame id="71:15861" name="Frame 1000001437" x="10" y="15" width="28" height="28">
+              <instance id="71:15862" name="icon/user" x="4" y="4" width="20" height="20" />
+            </frame>
+            <frame id="71:15863" name="Frame 1000001436" x="46" y="10" width="252" height="38">
+              <frame id="71:15864" name="Heading 3" x="0" y="0" width="130" height="38">
+                <text id="71:15865" name="Mohit kumar" x="0" y="1" width="130" height="20" />
+                <text id="71:15866" name="98675643565" x="0" y="21" width="130" height="16" />
+              </frame>
+            </frame>
+            <frame id="71:15867" name="Frame 1000001438" x="306" y="15" width="28" height="28">
+              <instance id="71:15868" name="icon/trash-2" x="4" y="4" width="20" height="20" />
+            </frame>
+          </frame>
+          <frame id="71:15869" name="Frame 1000001436" x="0" y="72" width="344" height="58">
+            <frame id="71:15870" name="Frame 1000001437" x="10" y="15" width="28" height="28">
+              <instance id="71:15871" name="icon/user" x="4" y="4" width="20" height="20" />
+            </frame>
+            <frame id="71:15872" name="Frame 1000001436" x="46" y="10" width="251" height="38">
+              <frame id="71:15873" name="Heading 3" x="0" y="0" width="130" height="38">
+                <text id="71:15874" name="Shubham" x="0" y="1" width="130" height="20" />
+                <text id="71:15875" name="96575643565" x="0" y="21" width="130" height="16" />
+              </frame>
+            </frame>
+            <frame id="71:15876" name="Frame 1000001438" x="305" y="15" width="28" height="28">
+              <instance id="71:15877" name="icon/trash-2" x="4" y="4" width="20" height="20" />
+            </frame>
+          </frame>
+          <frame id="71:15878" name="add-person-button" x="0" y="144" width="344" height="44">
+            <frame id="71:15879" name="plus-icon" x="118" y="12" width="20" height="20">
+              <frame id="71:15880" name="Frame" x="3" y="3" width="14" height="14">
+                <frame id="71:15881" name="plus" x="0" y="0" width="14" height="14" />
+              </frame>
+            </frame>
+            <text id="71:15883" name="Add Person" x="146" y="12" width="80" height="20" />
+          </frame>
+        </frame>
+      </frame>
+    </frame>
+    <frame id="71:15884" name="Header" x="0" y="0" width="375" height="45">
+      <frame id="71:15885" name="Frame 790" x="0" y="0" width="375" height="44">
+        <frame id="71:15886" name="Frame 789" x="0" y="0" width="375" height="44">
+          <frame id="71:15887" name="Statusbar" x="0" y="0" width="375" height="44">
+            <text id="71:15888" name="Time" x="24" y="14" width="30" height="20" />
+            <frame id="71:15889" name="Battery" x="336.33331298828125" y="17.333343505859375" width="24.32803726196289" height="11.333333015441895" />
+            <boolean-operation id="71:15893" name="Wifi" x="316" y="17.3306884765625" width="15.333016395568848" height="10.999930381774902" />
+            <boolean-operation id="71:15897" name="Cellular Connection" x="294" y="17.666656494140625" width="17" height="10.6669921875" />
+          </frame>
+        </frame>
+      </frame>
+      <rounded-rectangle id="71:15902" name="Rectangle 26790" x="0" y="44" width="375" height="1" />
+    </frame>
+    <frame id="71:15903" name="Frame" x="0" y="44" width="375" height="56">
+      <frame id="71:15904" name="Frame" x="16" y="16" width="199" height="24">
+        <instance id="71:15905" name="icon/chevron-left" x="0" y="0" width="24" height="24" />
+        <text id="71:15906" name="Create Application" x="36" y="0" width="163" height="24" />
+      </frame>
+    </frame>
+    <frame id="71:15907" name="Footer Action" x="0" y="724" width="375" height="76">
+      <instance id="71:15908" name="Buttons" x="16" y="16" width="343" height="44" />
+    </frame>
+  </frame>
+  <connector id="71:15909" name="View" x="3542.5" y="1878.5" width="155" height="226">
+    <vector id="0:3" name="Shape" x="0" y="0" width="155" height="226" />
+    <frame id="0:4" name="Text Background" x="0" y="0" width="100" height="100">
+      <text id="0:5" name="Text" x="0" y="0" width="36" height="20" />
+    </frame>
+  </connector>
+  <frame id="71:15910" name="Frame 2085666004" x="131" y="277" width="4404" height="80">
+    <text id="71:15911" name="Create Application flow" x="1973" y="12.5" width="458" height="55" />
+  </frame>
+  <frame id="71:15912" name="Frame 2085666011" x="3180" y="1402" width="1316" height="80">
+    <text id="71:15913" name="KYC / reject view" x="495" y="12.5" width="326" height="55" />
+  </frame>
+  <frame id="71:15914" name="Frame 2085666019" x="689" y="1402" width="2205" height="80">
+    <text id="71:15915" name="KYC Doc failed" x="958" y="12.5" width="289" height="55" />
+  </frame>
+  <frame id="71:15916" name="Frame 2085666040" x="1613" y="1542" width="375" height="800">
+    <rounded-rectangle id="71:15917" name="image 639" x="0" y="0" width="375" height="800" />
+    <frame id="71:15918" name="Frame 163197" x="44" y="272" width="288" height="256">
+      <rounded-rectangle id="71:15919" name="Upload 1" x="55" y="40" width="178" height="100" />
+      <frame id="71:15920" name="Frame 163196" x="24" y="140" width="240" height="76">
+        <frame id="71:15921" name="Frame 163195" x="0" y="0" width="240" height="76">
+          <text id="71:15922" name="Origami Workshop" x="0" y="0" width="240" height="28" />
+          <text id="71:15923" name="Please wait while we update your Document files" x="0" y="36" width="240" height="40" />
+        </frame>
+      </frame>
+    </frame>
+  </frame>
+  <vector id="71:15924" name="EasyFlow › flow" x="1048" y="1932.751953125" width="112" height="72.0479965209961" />
+  <vector id="71:15925" name="EasyFlow › flow" x="1519" y="1942" width="94" height="303" />
+  <vector id="71:15926" name="EasyFlow › flow" x="2411" y="1704" width="108" height="238" />
+  <frame id="71:15927" name="Frame 2085666042" x="3218" y="448" width="375" height="800">
+    <rounded-rectangle id="71:15928" name="image 640" x="0" y="0" width="375" height="800" />
+    <frame id="71:15929" name="Pop up/Buttons, Heading, Body &amp; Illustration  " x="0" y="508" width="375" height="292">
+      <frame id="71:15930" name="Frame 1000001430" x="16" y="16" width="343" height="48">
+        <frame id="71:15931" name="Frame 163170" x="0" y="0" width="343" height="48">
+          <text id="71:15932" name="Tution Fees" x="124" y="0" width="95" height="24" />
+          <text id="71:15933" name="Tution Fees" x="112.5" y="28" width="118" height="20" />
+        </frame>
+      </frame>
+      <frame id="71:15934" name="Frame 2085665999" x="16" y="84" width="343" height="132">
+        <frame id="71:15935" name="Frame 1000001437" x="0" y="0" width="343" height="44">
+          <frame id="71:15936" name="Frame 1000001437" x="10" y="8" width="28" height="28">
+            <instance id="71:15937" name="icon/camera" x="6" y="6" width="16" height="16" />
+          </frame>
+          <frame id="71:15938" name="Frame 1000001436" x="45" y="11" width="288" height="22">
+            <frame id="71:15939" name="Heading 3" x="0" y="0" width="130" height="22">
+              <text id="71:15940" name="Camera" x="0" y="1" width="130" height="20" />
+            </frame>
+          </frame>
+        </frame>
+        <frame id="71:15941" name="Frame 1000001441" x="0" y="44" width="343" height="44">
+          <frame id="71:15942" name="Frame 1000001437" x="10" y="8" width="28" height="28">
+            <instance id="71:15943" name="icon/image" x="4" y="4" width="20" height="20" />
+          </frame>
+          <frame id="71:15944" name="Frame 1000001436" x="45" y="11" width="288" height="22">
+            <frame id="71:15945" name="Heading 3" x="0" y="0" width="130" height="22">
+              <text id="71:15946" name="Upload Images" x="0" y="1" width="130" height="20" />
+            </frame>
+          </frame>
+        </frame>
+        <frame id="71:15947" name="Frame 1000001440" x="0" y="88" width="343" height="44">
+          <frame id="71:15948" name="Frame 1000001437" x="10" y="8" width="28" height="28">
+            <instance id="71:15949" name="icon/folder" x="6" y="6" width="17" height="17" />
+          </frame>
+          <frame id="71:15950" name="Frame 1000001436" x="45" y="11" width="288" height="22">
+            <frame id="71:15951" name="Heading 3" x="0" y="0" width="130" height="22">
+              <text id="71:15952" name="Upload File" x="0" y="1" width="130" height="20" />
+            </frame>
+          </frame>
+        </frame>
+      </frame>
+      <frame id="71:15953" name="Frame 162922" x="16" y="236" width="343" height="40">
+        <text id="71:15954" name="Close" x="151" y="10" width="41" height="20" />
+      </frame>
+    </frame>
+  </frame>
+  <vector id="71:15955" name="EasyFlow › flow" x="3002" y="849" width="216.00000188246486" height="0.9999999826377461" />
+  <vector id="71:15956" name="EasyFlow › flow" x="3593" y="849" width="96" height="253" />
+  <vector id="71:15957" name="EasyFlow › flow" x="4064" y="849" width="96" height="362" />
+  <frame id="71:15958" name="Login Screen 62" x="154" y="1513" width="375" height="800">
+    <frame id="71:15959" name="Frame 2085666001" x="16" y="72" width="343" height="50">
+      <frame id="71:15960" name="Frame 2085666000" x="0" y="0" width="92" height="50">
+        <text id="71:15961" name="Welcome" x="0" y="0" width="92" height="28" />
+        <text id="71:15962" name="Rishab Negi" x="0" y="30" width="80" height="20" />
+      </frame>
+      <instance id="71:15963" name="Teacher_1" x="311" y="9" width="32" height="32" />
+    </frame>
+    <frame id="71:15964" name="Frame 1000001450" x="16" y="162" width="343" height="130">
+      <instance id="71:15965" name="clipboard-check" x="130.5" y="53" width="24" height="24" />
+      <text id="71:15966" name="NBFC" x="164.5" y="53" width="48" height="24" />
+    </frame>
+    <frame id="71:15967" name="Header" x="0" y="0" width="375" height="61">
+      <frame id="71:15968" name="Frame 790" x="0" y="0" width="375" height="44">
+        <frame id="71:15969" name="Frame 789" x="0" y="0" width="375" height="44">
+          <frame id="71:15970" name="Statusbar" x="0" y="0" width="375" height="44">
+            <text id="71:15971" name="Time" x="24" y="14" width="30" height="20" />
+            <frame id="71:15972" name="Battery" x="336.33331298828125" y="17.333343505859375" width="24.32803726196289" height="11.333333015441895" />
+            <boolean-operation id="71:15976" name="Wifi" x="316" y="17.3306884765625" width="15.333016395568848" height="10.999930381774902" />
+            <boolean-operation id="71:15980" name="Cellular Connection" x="294" y="17.666656494140625" width="17" height="10.6669921875" />
+          </frame>
+        </frame>
+      </frame>
+      <rounded-rectangle id="71:15985" name="Rectangle 26790" x="0" y="60" width="375" height="1" />
+    </frame>
+  </frame>
+  <frame id="71:15986" name="Login Screen 179" x="2036" y="448" width="375" height="800">
+    <frame id="71:15987" name="Frame 1000003010" x="16" y="120" width="343" height="256">
+      <frame id="71:15988" name="Frame 1000003011" x="0" y="0" width="343" height="256">
+        <text id="71:15989" name="Uploaded Documents" x="0" y="0" width="343" height="22" />
+        <frame id="71:15990" name="Frame 1000003008" x="0" y="36" width="343" height="220">
+          <frame id="71:15991" name="Image" x="0" y="0" width="100" height="100">
+            <rounded-rectangle id="71:15992" name="image 1" x="-51.828125" y="-15" width="203" height="130" />
+            <frame id="71:15993" name="Frame 2085665997" x="23.171875" y="31" width="53" height="38">
+              <instance id="71:15994" name="icon/plus-circle" x="14.5" y="0" width="24" height="24" />
+              <text id="71:15995" name="Upload File" x="0" y="24" width="53" height="14" />
+            </frame>
+          </frame>
+          <frame id="71:15996" name="Image" x="120" y="0" width="100" height="100">
+            <rounded-rectangle id="71:15997" name="image 1" x="1" y="1" width="98" height="98" />
+            <frame id="71:15998" name="Frame 1000002920" x="85" y="-7" width="20" height="20">
+              <vector id="71:15999" name="close_small" x="6" y="6" width="8" height="8" />
+            </frame>
+          </frame>
+          <frame id="71:16000" name="Image" x="240" y="0" width="100" height="100">
+            <rounded-rectangle id="71:16001" name="image 1" x="1" y="1" width="98" height="98" />
+            <frame id="71:16002" name="Frame 1000002921" x="85" y="-7" width="20" height="20">
+              <vector id="71:16003" name="close_small" x="6" y="6" width="8" height="8" />
+            </frame>
+          </frame>
+          <frame id="71:16004" name="Image" x="0" y="120" width="100" height="100">
+            <rounded-rectangle id="71:16005" name="image 1" x="1" y="1" width="98" height="98" />
+            <frame id="71:16006" name="Frame 1000002921" x="85" y="-7" width="20" height="20">
+              <vector id="71:16007" name="close_small" x="6" y="6" width="8" height="8" />
+            </frame>
+          </frame>
+        </frame>
+      </frame>
+    </frame>
+    <frame id="71:16008" name="Frame" x="0" y="46" width="375" height="56">
+      <frame id="71:16009" name="Frame" x="16" y="16" width="196" height="24">
+        <instance id="71:16010" name="icon/chevron-left" x="0" y="0" width="24" height="24" />
+        <text id="71:16011" name="Last year book set" x="36" y="0" width="160" height="24" />
+      </frame>
+    </frame>
+    <frame id="71:16012" name="Header" x="0" y="0" width="375" height="45">
+      <frame id="71:16013" name="Frame 790" x="0" y="0" width="375" height="44">
+        <frame id="71:16014" name="Frame 789" x="0" y="0" width="375" height="44">
+          <frame id="71:16015" name="Statusbar" x="0" y="0" width="375" height="44">
+            <text id="71:16016" name="Time" x="24" y="14" width="30" height="20" />
+            <frame id="71:16017" name="Battery" x="336.33331298828125" y="17.333343505859375" width="24.32803726196289" height="11.333333015441895" />
+            <boolean-operation id="71:16021" name="Wifi" x="316" y="17.3306884765625" width="15.333016395568848" height="10.999930381774902" />
+            <boolean-operation id="71:16025" name="Cellular Connection" x="294" y="17.666656494140625" width="17" height="10.6669921875" />
+          </frame>
+        </frame>
+      </frame>
+      <rounded-rectangle id="71:16030" name="Rectangle 26790" x="0" y="44" width="375" height="1" />
+    </frame>
+  </frame>
+  <vector id="71:16031" name="EasyFlow › flow" x="1707" y="805" width="329" height="64" />
+  <vector id="71:16032" name="EasyFlow › flow" x="1707" y="978.5" width="1107.5" height="330.6187744140625" />
+</section>
