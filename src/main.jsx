@@ -154,7 +154,7 @@ function NbfcHome({ tab, setTab, onBack, onCreate, onOpenKyc, onOpenVerification
             Verification <span className="tab-count">5</span>
           </button>
         </div>
-        <div className="application-list">
+        <div className="application-list tab-panel" key={tab}>
           {tab === "kyc"
             ? cards.map((card, index) => (
                 <ApplicationCard
